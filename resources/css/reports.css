@@ -1,0 +1,492 @@
+/* members page for desktop */
+
+
+/* header css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.header-row {
+    margin: 7px 0px;
+}
+
+#mobileheader {
+    display: none;
+}
+
+#mobilecontent {
+    display: -webkit-box;
+    margin-left: 24px;
+    margin-right: 54px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#nav-btn {
+    margin-left: 24px;
+    margin-top: 53px;
+    padding: 0px;
+}
+
+#mobiletext {
+    display: none;
+}
+
+.header_logo_left {
+    height: 120px;
+    width: 101px;
+    margin: 7px 0px 9px 64px;
+}
+
+.header_logo_left_mobile {
+    display: none;
+}
+
+.titleRow {
+    border-bottom: 2px solid #7ac141;
+    margin: 28px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-family: Volkhov;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #202020;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 19px 0px 24px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+}
+
+.nav-link {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;
+    padding: 0px;
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    color: #4d4d4d;
+}
+
+.search-box {
+    width: 20px;
+    height: 18px;
+    object-fit: contain;
+    margin-top: 18px;
+    position: absolute;
+    right: 0px;
+}
+
+.search-box-mobile {
+    display: none;
+}
+
+.header_logo_right {
+    position: absolute;
+    right: 39px;
+    top: 19px;
+}
+
+.header_logo_right_mobile {
+    display: none;
+}
+
+.banner-slider,
+.carousel-inner {
+    height: 480px !important;
+    width: 100%;
+}
+
+.bgr_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    height: 480px;
+}
+
+.banner-text {
+    max-height: 216px;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    font-family: Volkhov;
+    font-size: 64px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: -334px;
+}
+
+
+/* header css end */
+
+/* content css starts */
+
+
+.Meetings {
+    
+    font-family: Volkhov;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #202020;
+
+}
+
+.Regional-Center-Part {
+ 
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #4d4d4d;
+}
+.Events {
+    width: 106px;
+    height: 56px;
+    font-family: Volkhov;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #202020;
+}
+.text1 {
+
+font-family: OpenSans;
+font-size: 18px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.44;
+letter-spacing: normal;
+text-align: center;
+color: #4d4d4d;
+margin-top:23px; height:52px; margin-left: 28px; width:224px;margin-right: 28px;
+}
+
+.County-Administratio {
+width: 224px;
+height: 40px;
+font-family: OpenSans;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: center;
+color: #8e8e8e;
+margin-top:11px; height:40px; margin-left: 23px; width:224px;margin-right: 28px;
+}
+.box-date{
+    position: absolute;
+    top: 0px;
+    padding-left: 20.5px;
+    background-color: #004f5a;
+    height: 80px;
+    width: 70px;
+    
+}
+.schedule_box{
+    border-radius: 4px;
+}
+.time-box{
+    padding-left: 20.5px;
+    background-color: #b03e56;
+    position: absolute;
+    top: 80px;
+    width: 70px;
+}
+.month-name{
+    width: 28px;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.date{
+    width: 28px;
+    height: 47px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.time{
+    width: 39px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.meeting-container{
+    padding: 0px; 
+    margin-top:54px 0px 0px 40px;
+}
+
+.heading-meeting{
+    margin: 0px; 
+    max-height:54px;
+}
+.meeting-para{
+    margin-top:13px;height:316px;
+}
+
+.event-segment{
+    margin-top: 196px;
+    margin-bottom: 316px; 
+}
+
+.event-boxes{
+    margin-top: 44px;
+    width: 944px;
+}
+
+.boxes{
+    width:280px;
+    height:280px;
+}
+
+/* content css ends */
+
+/* footer css start*/
+
+.footer {
+    height: 240px;
+    background-color: #202020;
+}
+
+.footer_left {
+    width: 607px;
+}
+
+.footer_logo {
+    height: 120px;
+    margin: 66px 0px 54px 203px;
+}
+
+.footer-info {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 84px;
+    margin-right: 168px;
+}
+
+
+/* footer css end */
+
+/* Members page for tablet*/
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    /* header css */
+    .header-row {
+        margin: 7px 0px;
+    }
+    .header_logo_left {
+        height: 120px;
+        width: 101px;
+        margin: 7px 0px 9px 56px;
+    }
+    .titleRow {
+        border-bottom: 2px solid #7ac141;
+        margin: 28px 0px 0px 0px;
+        padding-bottom: 10px;
+    }
+    .title {
+        font-family: Volkhov;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #202020;
+    }
+    .navbar {
+        padding: 0px;
+        margin: 19px 0px 24px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0px;
+        margin-right: 25px;
+    }
+    .nav-link {
+        font-family: OpenSans;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4d4d4d;
+        padding: 0px;
+        margin-right: 32px;
+    }
+    .nav-link:hover {
+        color: #4d4d4d;
+    }
+    .search-box {
+        width: 20px;
+        height: 18px;
+        object-fit: contain;
+        margin-top: 18px;
+        position: absolute;
+        right: 0px;
+    }
+    .header_logo_right {
+        position: absolute;
+        right: 31px;
+        top: 19px;
+    }
+    .banner-slider,
+    .carousel-inner {
+        height: 480px !important;
+        width: 100%;
+    }
+    .bgr_image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        height: 480px;
+    }
+    .banner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        height: 480px;
+    }
+    .banner-text {
+        max-height: 216px;
+        text-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+        font-family: Volkhov;
+        font-size: 64px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        position: relative;
+        top: -334px;
+    }
+    /* header css for tablet end */
+
+    /* footer css */
+    .footer {
+        height: 240px;
+        background-color: #202020;
+    }
+    .footer_left {
+        width: 496px;
+    }
+    .footer_logo {
+        height: 120px;
+        margin: 66px 0px 54px 41px;
+    }
+    .footer-info {
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: right;
+        color: #ffffff;
+        margin-top: 84px;
+        margin-right: 40px;
+    }
+    /* footer css end */
+}

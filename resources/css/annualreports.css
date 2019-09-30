@@ -1,0 +1,389 @@
+/* reports page for desktop */
+
+
+/* header css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+#banner-row {
+    max-height: 480px;
+}
+
+.container {
+    padding: 0px;
+    /* margin: 0px; */
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin: 0px; */
+}
+
+.header-row {
+    margin: 7px 0px;
+}
+
+#mobileheader {
+    display: none;
+}
+
+#mobilecontent {
+    display: -webkit-box;
+    margin-left: 24px;
+    margin-right: 54px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#nav-btn {
+    margin-left: 24px;
+    margin-top: 53px;
+    padding: 0px;
+}
+
+#mobiletext {
+    display: none;
+}
+
+.header_logo_left {
+    height: 120px;
+    width: 101px;
+    margin: 7px 0px 9px 64px;
+}
+
+.header_logo_left_mobile {
+    display: none;
+}
+
+.titleRow {
+    border-bottom: 2px solid #7ac141;
+    margin: 28px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-family: Volkhov;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #202020;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 19px 0px 24px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+}
+
+.nav-link {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4d4d4d;
+    padding: 0px;
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    color: #4d4d4d;
+}
+
+.search-box {
+    width: 20px;
+    height: 18px;
+    object-fit: contain;
+    margin-top: 18px;
+    position: absolute;
+    right: 0px;
+}
+
+.search-box-mobile {
+    display: none;
+}
+
+.header_logo_right {
+    position: absolute;
+    right: 39px;
+    top: 19px;
+}
+
+.header_logo_right_mobile {
+    display: none;
+}
+
+.banner-slider,
+.carousel-inner {
+    height: 480px !important;
+    width: 100%;
+}
+
+.bgr_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    height: 480px;
+}
+
+.banner-text {
+    max-height: 216px;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    font-family: Volkhov;
+    font-size: 64px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: -334px;
+}
+
+
+/* header css end */
+
+
+/* annual reports content css */
+
+@media (min-width: 769px) {
+    .report-container {
+        margin-top: 104px;
+        margin-bottom: 400px;
+    }
+    .report-col {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 68px;
+    }
+    .report-box {
+        padding: 0px;
+        object-fit: contain;
+    }
+    .report-body {
+        position: absolute;
+        top: 67px;
+        left: 49px;
+        padding: 0px;
+    }
+    .report-year {
+        font-family: Charter;
+        font-size: 64px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -2.24px;
+        color: #ffffff;
+    }
+    .report-title {
+        width: 208px;
+        font-family: OpenSans;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+}
+
+
+/* content css end */
+
+
+/* responsive screen css */
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .report-col {
+        max-width: 272px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 68px;
+    }
+    .report-container {
+        margin-top: 104px;
+        margin-bottom: 400px;
+        max-width: 100%;
+    }
+    .report-image {
+        width: 272px;
+        height: 296px;
+    }
+    .report-box {
+        padding: 0px;
+        object-fit: contain;
+    }
+    .report-body {
+        position: absolute;
+        top: 77px;
+        left: 40px;
+        padding: 0px;
+    }
+    .report-year {
+        font-family: Charter;
+        font-size: 64px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -2.24px;
+        color: #ffffff;
+    }
+    .report-title {
+        width: 108px;
+        font-family: OpenSans;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin-top: 18px;
+    }
+}
+
+
+/* mobile css */
+
+@media only screen and (min-width: 320px)and (max-width: 600px) {
+    .report-col {
+        max-width: 165px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+    }
+    .report-container {
+        margin-top: 104px;
+        margin-bottom: 400px;
+    }
+    .report-image {
+        width: 160px;
+        height: 208px;
+    }
+    .report-box {
+        padding: 0px;
+        object-fit: contain;
+    }
+    .report-body {
+        position: absolute;
+        top: 42px;
+        left: 28px;
+        padding: 0px;
+    }
+    .report-year {
+        font-family: Charter;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -1.12px;
+        color: #ffffff;
+    }
+    .report-title {
+        width: 108px;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin-top: 28px;
+    }
+    .footer {
+        height: 380px;
+        background-color: #202020;
+    }
+    .footer_left {
+        width: 0px;
+    }
+    .footer_logo {
+        height: 96px;
+        margin: 48px 0px 0px 170px;
+        object-fit: contain;
+    }
+    .footer-info {
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin: 24px 16px 44px 30px;
+    }
+}
+
+
+/* footer css */
+
+.footer {
+    height: 240px;
+    background-color: #202020;
+}
+
+.footer_left {
+    width: 100%;
+}
+
+.footer_logo {
+    height: 120px;
+    margin: 66px 0px 54px 15%;
+}
+
+.footer-info {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin: 84px 15% 84px 0px;
+}
