@@ -28,6 +28,10 @@ $ docker stop $(docker ps -aq)
 ````
 $ docker-compose up --build
 ````
+#To stop current docker, you can kill with ctrl+c and after that run:
+````
+$ docker stop
+````
 #if not run, try using with sudo
 #Open project folder in vscode and start making the theme
 
@@ -35,4 +39,4 @@ PHPMyAdmin URL:
 http://localhost:8080/
 
 Site URL:
-http://yourname.com
+http://manishagarwal.com
